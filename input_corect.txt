@@ -1,0 +1,125 @@
+variabile_globale:
+
+int x;
+int x1;
+int x2;
+int y;
+int arr[10];
+float f=20.0;
+float f1;
+bool b;
+char c;
+string s;
+
+end_globale. 
+
+functii:
+
+functie int testFunction(int z, float w):
+{
+    z=2;
+    int res2;
+    res2 = 2;
+    return res2;
+}
+
+functie int testFunction(int r4, int a3):
+{
+    int nr1 = 30;
+    int nr2 = 20;
+    int res = nr1 * nr2;
+    return res;
+}
+
+functie int  test(int param1, int param2, float fl):
+{
+	int ceva=12;
+	return ceva;
+}
+
+end_functii.
+
+clase:
+
+    class C1: //comentariu
+    {
+     
+    private:
+        const string strg = "ab";
+        
+    public:
+        functie int fct(int);
+    };
+	
+	class C2:
+	{
+	protected:
+		functie float altceva();
+	};
+
+end_clase.
+
+main:
+
+f=30.1;
+int i;
+int sum=0;
+
+for(i=0 i<2; i++)
+{
+	sum=10+1;
+}
+Eval(sum);
+int n=2;
+while(n>3)
+{
+	sum=17;
+}
+
+Eval(sum);
+x = 10; x1 = 20; x2 = 30; y = 100;
+int unu;
+unu={testFunction(x1,f)};
+
+arr[2]=3;
+
+if (((x1 + unu < 5 + x1 && ((x > 2 || x1 < 4+x2) || x == 2))&& arr[2]==3))
+{
+	x = 2;    
+}
+else
+{
+	x=3;
+}
+
+
+
+//x = {testFunction({testFunction(x1,3)}+2, y+4)} + (30 - y * arr[2]) - 10;
+
+int aux1;
+aux1={testFunction(x1,3)};
+int aux2;
+aux2=aux1+2;
+int aux3;
+aux3={testFunction(aux2, y+4)};
+
+ x = aux3 + (30 - y * arr[2]) - 10;
+ Eval(x);
+
+arr[2]=3;
+
+x1 = x*100 + 5 * 100 + arr[2];
+Eval((x1+100)*10); 
+Eval(x1);
+Eval(x2*10+200);
+Eval(x1-x2+3);
+int incercare;
+incercare={testFunction(x1,f)};
+Eval(x+incercare) ; 	
+Eval(5);
+TypeOf(x+23);
+TypeOf(incercare);
+TypeOf(f+5);
+end.
+
+

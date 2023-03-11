@@ -1,0 +1,52 @@
+variabile_globale:
+
+int x = 23;
+int x1;
+//int x1;
+int x2;
+float f1 = 50.0;
+string s = "ana";
+
+end_globale. 
+
+functii:
+
+functie int testFunction(int y, float z):
+{
+    z=2;
+    int res2;
+    res2 = 2;
+    return res2;
+}
+
+functie int testFunction(float w, float fl):
+{
+    int nr1 = 30;
+    int nr2 = 20;
+    int res = nr1 * nr2;
+    return res;
+}
+
+functie int  test(int param):
+{
+    int ceva=12;
+    return ceva;
+}
+
+end_functii.
+
+main:
+
+//x3 = x + 2;
+//f1 = x + x2;
+//f1 = {test(5)} + x;
+//x = {test(5)} + f1; 
+//x = s + f1;
+test(f1);
+test(5,f1);
+TypeOf(fl+x);
+Eval(f1);
+Eval(f1+x);
+test(5+f1);
+
+end.
